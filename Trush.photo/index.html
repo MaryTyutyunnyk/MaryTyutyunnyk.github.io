@@ -27,7 +27,7 @@
 			<div class="navbar__rectangle"></div>
 
 			<div class="navbar__content">
-				<div id="navbarBurger">
+				<div id="navbarBurger" class="navbarBurger">
 					<span class="navbarBurger__line"></span>
 					<span class="navbarBurger__line navbarBurger__line_long"></span>
 					<span class="navbarBurger__line"></span>
@@ -148,17 +148,18 @@
 			</div>
 			<section class="homePageSlider">
 				<div class="homePageSliderBox">
-					<div id="homePageSliderList" class="owl-carousel homePageSliderList">
-						<div class="homePageSliderList__item no-margin">
-							<img src="./img/img1_large.png" alt="Photo" class="homePageSliderList__img">
-						</div>
-						<div class="homePageSliderList__item no-margin">
-							<img src="./img/img1_large.png" alt="Photo" class="homePageSliderList__img">
-						</div>
-						<div class="homePageSliderList__item no-margin">
-							<img src="./img/img1_large.png" alt="Photo" class="homePageSliderList__img">
-						</div>
-					</div>
+					<ul id="homePageSliderList" class="owl-carousel homePageSliderList">
+						<li class="homePageSliderList__item no-margin">
+							<a href="./portfolioImage.html" class="homePageSliderList__link">
+								<img src="./img/img1_large.png" class="homePageSliderList__img" alt="Photo">
+							</a>
+						</li>
+						<li class="homePageSliderList__item no-margin">
+							<a href="./portfolioImage.html" class="homePageSliderList__link">
+								<img src="./img/img1_large.png" class="homePageSliderList__img" alt="Photo">
+							</a>
+						</li>
+					</ul>
 				</div>
 			</section>
 			<section class="contentBlock">
